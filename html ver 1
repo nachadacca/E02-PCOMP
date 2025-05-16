@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="inicio">
+<h1>P02–CREATIVIDAD COMPUTACIONAL - ARTE Y DISEÑO CON COMPUTADORES HOY.</h1>
+<h2>"Birds" | Kyle McDonald, Manny Tan, Yotam Mann, Google experiments. </h2>
+<p>Grupo 1: Rosario Calvo, Emilia Undarraga, Fernanda Venegas, Constanza Cárcamo, Ignacia Daccarett, Francisca Brantes.</p>
+<a href="https://experiments.withgoogle.com/ai/bird-sounds/view/">
+	<img src="img_1.png" alt="Foto de página" width="1700" height="auto">
+</a>
+</div>
+
+<div class="info">
+	<h2>AI Experiments</h2>
+	<p> <img src="img_2.png" alt="Foto de página" width="500" height="auto"> Built by Kyle McDonald, Manny Tan, Yotam Mann, and friends at Google Creative Lab. Thanks to Cornell Lab of Ornithology for their support. The sounds are available in the Macaulay Library’s Essential Set for North America. t-SNE animation featured in video by Gene Kogan.</p>
+</div>
+
+</body>
+</html>
