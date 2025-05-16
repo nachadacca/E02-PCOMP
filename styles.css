@@ -1,11 +1,19 @@
+
+
+
+
 body {
   background-color: whitesmoke;
-  margin-top: 100px;
   margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-}
 
+}
+.header {
+      background: linear-gradient(135deg, #F2EFEA, #55524C);
+      text-align: center;
+      padding: 7rem 2rem 3rem;
+      margin: 0;
+     
+}
 .inicio {
 h1 {
   font-family: "helvetica", sans-serif;
@@ -20,7 +28,10 @@ h2 {
    font-size: 30px;
    text-align: center;
 }
-
+h3 {  font-family: "helvetica", sans-serif;
+  color: darkslategray;
+   font-size: 30px;
+   text-align: center;}
 p {
   font-family: "helvetica", sans-serif;
   color: darkslategray;
@@ -30,6 +41,7 @@ p {
 
 img {
   padding-top: 30px;
+  padding-left: 400px;
 }
 }
 
@@ -59,3 +71,15 @@ img {
 }
 
   }
+.Cornell {
+   h1{ font-family: "helvetica", sans-serif;
+  color: darkslategray;
+  font-size: 40px;
+  text-align: center;
+padding-top: 50px}
+
+h4 {  font-family: "helvetica", sans-serif;
+  color: darkslategray;
+   font-size: 15px;
+   text-align: center;}
+}  
