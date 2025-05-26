@@ -5,36 +5,69 @@
 body {
   background-color: whitesmoke;
   margin-bottom: 100px;
-
+  width: 80%;
+  margin-left: 10%;
 }
+/* NO ENTIENDO PORQUE NO SE CORREN A LA DERECHA AYUDA*/
 .header {
+      display: flex; 
       background: linear-gradient(135deg, #F2EFEA, #55524C);
       text-align: center;
+       gap: 15%;   
       padding: 7rem 2rem 3rem;
-      margin: 0;
+      margin-left: 0;
+      align-items: center;
+      
      
+
+h3 {
+   font-family: "JetBrains Mono";
+  color: #5E929F};
+   font-size: 20px;
+   text-align: center;
+  
 }
+
 .inicio {
 h1 {
   font-family: "helvetica", sans-serif;
-  color: darkslategray;
+  color: #5E929F;
   font-size: 40px;
   text-align: center;
 }
+}
+.texto2 {
+   font-family: "JetBrains Mono";
+  color: #5E929F};
+   font-size: 40px;
+   text-align: center;
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 h2 {
   font-family: "helvetica", sans-serif;
-  color: darkslategray;
+  color: #5E929F;
    font-size: 30px;
    text-align: center;
 }
-h3 {  font-family: "helvetica", sans-serif;
-  color: darkslategray;
-   font-size: 30px;
+h3 {  font-family: "JetBrains Mono", sans-serif;
+  color: black;
+   font-size: 40px;
    text-align: center;}
 p {
   font-family: "helvetica", sans-serif;
-  color: darkslategray;
+  color: #5E929F;
    font-size: 15px;
    text-align: center;
 }
@@ -83,3 +116,66 @@ h4 {  font-family: "helvetica", sans-serif;
    font-size: 15px;
    text-align: center;}
 }  
+/* PUNTOS CHILE (NO SE SI LO VAMOS A USAR*/
+.Linea1 {
+  width: 100px;
+  display: flex;  
+  gap: 5px;             /* Espacio entre los puntos */
+  margin-top: 10px;
+}
+#zona{
+  width: 30px;
+  height: 30px;
+  background-color: #5E929F;
+  border-radius: 50%;
+  margin: 10px auto;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#zona2{
+  width: 30px;
+  height: 30px;
+  background-color: #5E929F;
+  border-radius: 50%;
+  margin: 10px auto;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#zona3{
+  width: 30px;
+  height: 30px;
+  background-color: #5E929F;
+  border-radius: 50%;
+  margin: 10px auto;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* MAPA OFICIAL */
+svg {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+ 
+}
+
+.region {
+  fill: #cccccc;
+  stroke: #333;
+  stroke-width: 0.5;
+  cursor: pointer;
+  transition: fill 0.3s;
+}
+
+.region:hover {
+  fill: #66ccff;
+}
+
+#region {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+body {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
