@@ -1,0 +1,214 @@
+
+
+
+
+body {
+  background-color: whitesmoke;
+  margin-bottom: 100px;
+  width: 80%;
+  margin-left: 10%;
+}
+/* NO ENTIENDO PORQUE NO SE CORREN A LA DERECHA AYUDA*/
+#header {
+  display: flex; 
+  background-color: #F3EFE9;
+  text-align: center;
+  gap: 25%;   
+  padding: 7rem 2rem 3rem;
+  margin-left: 0;
+  align-items: center;
+  font-family: "JetBrains Mono";
+  color: #5E929F;
+  font-size: 20px;
+  text-align: center;
+}
+    
+     
+
+h3 {
+   font-family: "JetBrains Mono";
+  color: #5E929F;
+   font-size: 20px;
+   text-align: center;
+  
+}
+
+#inicio {
+  font-family: "helvetica", sans-serif;
+  color: #5E929F;
+  font-size: 40px;
+  text-align: center;
+}
+
+#texto2 {
+   font-family: "JetBrains Mono";
+  color: #5E929F;
+   font-size: 40px;
+   text-align: center;
+}
+  
+#cuadrado-cafe {
+  width: 100%;
+  height: 400px;
+  background-color: #F3EFE9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+#ladoizq{
+  flex: 1;
+}
+#cuadrado-dentro {
+  width: 100px;
+  height: 100px;
+  background-color: #4CAF50;
+  margin-left: 20px;
+}
+
+.titulo-cafe
+  font-family: "helvetica", sans-serif;
+  color: #5E929F;
+  font-size: 20px;
+  text-align: center;
+.parrafo-cafe
+.cuadrado-dentro
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+  font-family: "helvetica", sans-serif;
+  color: #5E929F;
+   font-size: 30px;
+   text-align: center;
+}
+h3 {  font-family: "JetBrains Mono", sans-serif;
+  color: black;
+   font-size: 40px;
+   text-align: center;}
+p {
+  font-family: "helvetica", sans-serif;
+  color: #5E929F;
+   font-size: 15px;
+   text-align: center;
+}
+
+img {
+  padding-top: 30px;
+  padding-left: 400px;
+}
+}
+
+.info {
+
+  margin-top: 50px;
+  margin-left: 200px;
+  
+  h2 {
+  font-family: "helvetica", sans-serif;
+  color: darkslategray;
+   font-size: 30px;
+   text-align: left;
+}
+
+p {
+  font-family: "helvetica", sans-serif;
+  color: darkslategray;
+   font-size: 15px;
+   text-align: left;
+}
+
+img {
+  float: right;
+  margin: 0px 0px 0px 50px;
+  padding-right: 300px;
+}
+
+  }
+.Cornell {
+   h1{ font-family: "helvetica", sans-serif;
+  color: darkslategray;
+  font-size: 40px;
+  text-align: center;
+padding-top: 50px}
+
+h4 {  font-family: "helvetica", sans-serif;
+  color: darkslategray;
+   font-size: 15px;
+   text-align: center;}
+}  
+/* PUNTOS CHILE (NO SE SI LO VAMOS A USAR*/
+.Linea1 {
+  width: 100px;
+  display: flex;  
+  gap: 5px;             /* Espacio entre los puntos */
+  margin-top: 10px;
+}
+#zona{
+  width: 30px;
+  height: 30px;
+  background-color: #5E929F;
+  border-radius: 50%;
+  margin: 10px auto;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#zona2{
+  width: 30px;
+  height: 30px;
+  background-color: #5E929F;
+  border-radius: 50%;
+  margin: 10px auto;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#zona3{
+  width: 30px;
+  height: 30px;
+  background-color: #5E929F;
+  border-radius: 50%;
+  margin: 10px auto;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* MAPA OFICIAL */
+svg {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+ 
+}
+
+.region {
+  fill: #cccccc;
+  stroke: #333;
+  stroke-width: 0.5;
+  cursor: pointer;
+  transition: fill 0.3s;
+}
+
+.region:hover {
+  fill: #66ccff;
+}
+
+#region {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+body {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
