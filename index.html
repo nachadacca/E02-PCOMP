@@ -5,8 +5,65 @@
   <style>
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/* Inicio de código rescatado y adaptado desde W3Schools */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#5E929F;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* Fin de código rescatado y adaptado desde W3Schools */
+
+</style>
 </head>
 <body>
+
+<!--Inicio de código rescatado y adaptado desde W3Schools-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="arrow.png" alt="top"></button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!--Fin de código rescatado y adaptado desde W3Schools-->
+
+
 <div class= "header">
 	<h3>CONTEXTO</h3>
 	<h3>BIRDS </h3>
@@ -16,8 +73,23 @@
 
 
 <div class="inicio">
-<h1>Visualización de Datos e información.</h1>
-
+<h1>Bird Sounds: Explorando cantos de aves con <br> inteligencia artificial</h1>
+<div class="columna1">
+<p>Bird Sounds es un experimento interactivo desarrollado por Kyle McDonald, Manny Tan y Yotam Mann junto al equipo de Google Creative Lab. El proyecto organiza más de 14.000 grabaciones de cantos de aves usando aprendizaje automático no supervisado, creando un mapa visual donde los sonidos similares se agrupan. </p>
+</div>
+<div class="columna2">
+<p>Mediante algoritmos como t-SNE, se analizaron las características acústicas de cada grabación, permitiendo a los usuarios explorar el mapa, escuchar los cantos y descubrir patrones naturales.</p>
+</div>
+<div class="autores">
+<img src="img_6.png" alt="Perfil de Kyle McDonald">
+<h2>Kyle McDonald</h2>
+<p>Lideró el análisis con IA</p>
+<h2>Manny Tan</h2>
+<p>Diseñó la interfaz interactiva </p>
+<h2>Yotam Mann</h2>
+<p>Se encargó del procesamiento y <br> reproducción de audio en la web.</p>
+</div>
+<h3>Visualización de Datos e Información</h3>
 
 <!-- SVG COMPLETO OFICIAL -->
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -143,6 +215,7 @@
 <div class= "visualizacion">
    <h1>¿Qué es la visualización de datos?</h1>
    <p>Es una disciplina que busca <br>  representar datos abstractos en <br> formas perceptibles (imagen, <br>  sonido, etc.) que permitan <br> entender los datos. Utiliza <br>  diseño, percepción y ciencias <br>  cognitivas.</p>
+   <img src="img_0.png" alt="Web BIRDS">
 </div>
 
 <div class= "descripcion">
@@ -163,22 +236,18 @@
 <h1>¿Cómo lo hace?</h1>
 <p>Gracias al uso de machine learning, el sistema identifica patrones en miles de cantos de aves. Sin etiquetas ni nombres, agrupa sonidos similares en un “mapa sonoro” interactivo.
 </p>
-<img src="img_3.png" alt="Least tern">
+<img src="img_3.png" alt="Excel de sonido">
 </div>
 
 <div class= "porque">
 <h1>¿Por qué?</h1>
-<p>Esta experiencia demuestra cómo los datos abstractos pueden adquirir forma, emoción y sentido mediante el diseño visual y auditivo.
-</p>
+<p>Esta experiencia demuestra <br> cómo los datos abstractos <br> pueden adquirir forma, <br> emoción y sentido mediante <br> el diseño visual y <br> auditivo.</p>
+<img src="img_4.png" alt="Ondas sonoras">
 </div>
 
-<div class= "IA">
-<h1>IA (Inteligencia Artificial)</h1>
-<p>"Machine Learning analiza y organiza los sonidos"</p>
-<h1>T-SNE</h1>
-<p>"Agrupa sonidos similares usando mapas de proximidad"</p>
-<h1>Datos Sonoros</h1>
-<p>"Miles de sonidos de aves sin etiquetas previas"</p>
+<div class= "diagrama">
+<h1>Proceso de Creación</h1>
+<img src="img_5.png" alt="Diagrama">
 </div>
 
 <script src="pcomjiji.js"></script>

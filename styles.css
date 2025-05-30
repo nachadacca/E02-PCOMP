@@ -31,19 +31,56 @@ h1 {
   font-weight: regular;
   text-align: center;
   margin-top: 56px;
-  margin-bottom:80px;
+  margin-bottom:35px;
 }
+
+p{
+  font-family: "JetBrains Mono";
+  color: #5E929F;
+  font-size: 12px;
+  font-style: light;
+  }
+
 h3 {
   font-family: "JetBrains Mono";
   color: #5E929F;
   font-size: 16px;
   font-weight: ExtraLight;
   text-align: center;
-  margin-top:167px;
-  margin-left:190px;
-  margin-right: 190px;
+  margin-top:44px;
   margin-bottom: 80px;
 }
+
+.autores{
+  margin-right:105px;
+  h2 {
+  font-family: "JetBrains Mono";
+  color: #5E929F;
+  font-size: 20px;
+  font-weight: regular;
+  margin-left: 27px;
+}
+p{
+  font-family: "JetBrains Mono";
+  color: #5E929F;
+  font-size: 12px;
+  font-style: light;
+  margin-left: 27px;
+  }
+  }
+
+.columna1{
+  width:344px;
+  float:left;
+  margin-bottom: 2px;
+}
+.columna2{
+  width:330px;
+  float:right;
+  margin-bottom: 50px;
+}
+img{
+  float:right;
 }
 
 /* MAPA OFICIAL */
@@ -77,6 +114,7 @@ body {
   padding: 20px;
   font-family: Arial, sans-serif;
 }
+}
 
 .visualizacion {
   height: 275px;
@@ -92,13 +130,17 @@ body {
   padding-left:83px;
 }
 p {
+  float: left;
   font-family: "JetBrains Mono";
   color: #5E929F;
   font-size: 12px;
   font-weight: Thin;
-  margin-right:409px;
   padding-left:83px;
 }
+img{
+  float: right;
+  padding-right: 50px;
+  }
 }
 
 .descripcion {
@@ -166,7 +208,6 @@ img {
   float:left;
   width:187px;
   padding-right:25px;
-  padding-left:25px;
 h1 {
   font-family: "JetBrains Mono";
   color: #5E929F;
@@ -179,7 +220,7 @@ p {
   color: #5E929F;
   font-size: 12px;
   font-style: light;
-  padding-bottom:29px;
+  padding-bottom:27px;
   }
 img {
   padding-bottom:77px;
@@ -187,9 +228,8 @@ img {
 }
 
 .porque {
-  width:187px;
+  width:189px;
   float:left;
-  padding-right:25px;
 h1 {
   font-family: "JetBrains Mono";
   color: #5E929F;
@@ -202,30 +242,21 @@ p {
   color: #5E929F;
   font-size: 12px;
   font-style: light;
+  padding-bottom:60px;
   }
-
+  img {
+  padding-bottom:77px;
+}
 }
 
-.IA{
-  margin-top:469px;
-  padding-top:79px;
-  padding-left: 41px;
-  height:294px;
-  background-color: #F3EFE9;
-  h1 {
+.diagrama {
+h1 {
   font-family: "JetBrains Mono";
   color: #5E929F;
-  font-size: 11px;
-  font-weight: thin;
-  font-style: light;
-  }
-p {
-  font-family: "JetBrains Mono";
-  color: #5E929F;
-  font-size: 6px;
-  font-style: ligth;
-  padding-bottom:31px;
+  font-size: 15px;
+  font-weight: bold;
+  padding_left:25px;
+  padding-bottom:12px;
   }
 }
 
-}
