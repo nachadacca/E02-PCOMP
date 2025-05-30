@@ -1,7 +1,8 @@
 body {
   background-color: #FFFFFF;
   width: 716px;
-  margin-left: 25%;
+  margin-left: 300px;
+
 }
 
 .header {
@@ -9,6 +10,7 @@ body {
       height: 168px;
       display: flex; 
       background: #F3EFE9;
+      
 h3 {
    font-family: "JetBrains Mono";
   color: #5E929F;
@@ -81,24 +83,21 @@ img{
   float:right;
 }
 
-/* MAPA OFICIAL */
+/* MAPA OFICIAL (ayuda de Deepseek)*/
 svg {
   width: 100%;
   max-width: 800px;
-  height: auto;
- 
+  height="708.72205"
 }
 
 .region {
-  fill: #cccccc;
-  stroke: #333;
-  stroke-width: 0.5;
+  fill: #5E929F;
   cursor: pointer;
   transition: fill 0.3s;
 }
 
 .region:hover {
-  fill: #66ccff;
+  fill: #F3EFE9 ;
 }
 
 #region {
@@ -107,7 +106,7 @@ svg {
   font-family: Arial, sans-serif;
   color: #333;
 }
-
+/* fin ayuda de Deepseek*/
 body {
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -263,4 +262,59 @@ img {
   padding-bottom:150px;
 }
 }
+
+.contenedor-mapa {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  padding: 20px;
+  height: 700px;
+}
+/* Ayuda de Chatgpt*/
+
+.mapa-wrapper {
+  flex: 1;
+  min-width: 300px; 
+  margin-right: 100px;
+  
+}
+
+
+.mapa-wrapper svg {
+  width: 100%;
+  height: 700px;
+  max-width: 600px;
+  position: absolute;
+}
+
+
+
+.imagen_preview {
+  max-width: 100%;
+  max-height: 200px;
+  margin-top: 40%;
+  margin-right: 200px;
+}
+
+
+.region {
+  fill: #5E929F;
+  stroke: #F3EFE9;
+  stroke-width: 0.5;
+  transition: fill 0.3s;
+}
+
+.region:hover {
+  fill: #F3EFE9;
+  cursor: pointer;
+}
+
+.regiones {
+ width: 200px;
+
+}
+
+
+
 
