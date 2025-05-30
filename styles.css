@@ -82,7 +82,10 @@ p{
 img{
   float:right;
 }
+#arica {
+ width: 200px;
 
+}
 /* MAPA OFICIAL (ayuda de Deepseek)*/
 svg {
   width: 100%;
@@ -255,7 +258,12 @@ h1 {
   padding_left:25px;
   padding-bottom:12px;
   }
-
+  img {
+  margin-left:-50px;
+  width:900px;
+  height: auto;
+  padding-bottom:150px;
+}
 }
 
 .contenedor-mapa {
@@ -289,7 +297,7 @@ h1 {
   max-width: 100%;
   max-height: 200px;
   margin-top: 40%;
-  margin-right: 200px;
+  margin-right: 300px;
 }
 
 
@@ -305,10 +313,7 @@ h1 {
   cursor: pointer;
 }
 
-.regiones {
- width: 200px;
 
-}
 
 
 
