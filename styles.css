@@ -256,5 +256,11 @@ h1 {
   padding_left:25px;
   padding-bottom:12px;
   }
+img {
+  margin-left:-50px;
+  width:900px;
+  height: auto;
+  padding-bottom:150px;
+}
 }
 
